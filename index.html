@@ -1,46 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/animate.css">
         <link href='https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+   
+        <link href="font-awesome.css" rel="stylesheet" type="text/css">
         <title>Charmaine Wang</title>                                                                      
         
     </head>
-    <body>
+    <body >
+        <section class=".section-home js--scroll-to-home">
         <header>
             <nav>
                 <div class="row">
-                    <ul class="main-nav">
-                        <li><a1 href="#"> About me</a1></li>
-                        <li><a2 href="#"> Portfolio</a2></li>
-                        <li><a3 href="#"> Skills </a3></li>
-                        <li><a4 href="#"> Reach Me</a4></li>
+                    <img src="resources/img/stars.png" alt="CW logo" class="logo">
+                    <img src="resources/img/stars.png" alt="CW logo" class="logo-small">
+                    
+                    <ul class="main-nav main">
+                        <li><a1 class="home" href="#"> Home</a1></li>
+                        <li><a2 class="about" href="#"> About Me</a2></li>
+                        <li><a3 class="photography" href="#"> Photography </a3></li>
+                        <li><a4  class="skills"href="#"> Skills</a4></li>
                     
                     </ul>
                 </div>
             </nav>
-            <img src="resources/css/img/SelfPortrait.png" alt="CW portrait" class="logo">
+            <!--<img src="resources/css/img/SelfPortrait.png" alt="CW portrait" class="logo">-->
             <div class="hero-text-box">
                 <h1> Charmaine Wang</h1>
-                <a class="btn btn-full" href="#">Projects</a>
-                <a class="btn btn-ghost" href="#">Resume</a>
+                <ul class="list-inline">
+                        <li>
+                            <a href="https://github.com/CharmaineWang" target="_blank" class="ion-social-github icon-media">
+                               </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/charmainewang" target="_blank"
+                               ><i class="ion-social-linkedin icon-media" ></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:charmainewangyy@gmail.com" target="_blank"
+                               ><i class="ion-android-mail icon-media" ></i></a>
+                        </li>
+                        <a class="btn btn-ghost js--scroll-to-start" href="RESUME.pdf">RESUME</a>
+                    </ul>
+                      
             </div>
         
         </header>
+            </section>
         
-        <section class="section-features">
+        <section  class="section-features js--section-features js--scroll-to-about" >
             <div class="row">
                 
                 <h2>Hi there!</h2>
-                <p class="long-copy">
-                    Hello, my name is Charmaine and I'm currently studying System Design Engineering at the University of Waterloo!
+                <p align="justify" class="long-copy">
+                    My name is Charmaine and I'm currently studying <u>System Design Engineering</u> at the University of Waterloo! My passion for design and drive for problem solving have led me to where I am today. With a high level of curiosity for technology, I always strive to challenge myself in order to enhance my understanding of the world.
                 </p>
-            
+                
+                <p align="justify" class="long-copy">
+                    For my last co-op term, I got to work at <u1>TELUS HEALTH</u1> as a Programmer Analyst. I took on roles as a Research and Devloper looking into the CICD pipeline and AWS Aurora Database. Within the short time span of 4 months, I was exposed to a variety of technologies and applied my knowledge throughout the work term. Some of the work I did include:
+                </p>
+                <div class="work">
+                        <p><b>1.</b> Developed and compared microservices running on different servers 
+  (Tomcat, Pippo, Node.js, Spring Boot) for optimum compatibility in pipeline</p>
+                        <p><b>2.</b>Experienced working with several Docker components (commands 
+  and microservices management) to create Docker images and containers</p>
+                        <p><b>3.</b> Established, developed and validated testing methods for existing
+  web apps using Robot Framework and Selenium2Library</p>
+                    <p><b>4.</b>  Performed database migration from Oracle to Amazon Aurora  </p>
+                    <p><b>5.</b> 
+  Developed PoC for Amazon Schema Conversion Tool usage </p>
+                </div>
             </div>
-            <div class="row">
+            <!--
+            <div class="row js--wp-1">
                 <div class="col span-1-of-4 box" p >
                 <i class="ion-camera icon-big"></i>
                 <h3>Up to 365 days/year</h3>
@@ -65,12 +105,12 @@
                     <p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
                 
                 </div>
-            </div>
+            </div>-->
         
         </section>
         
-        <section class="section-design">
-            <ul class="design-showcase">
+        <section class="section-design js--scroll-to-photography">
+            <ul class="design-showcase clearfix">
             <li>
                 <figure class="design-photo">
                     <img src="resources/img/DSC00201.JPG" alt="CW">
@@ -92,7 +132,7 @@
                 </figure>
             </li>
         </ul>
-        <ul class="design-showcase">
+        <ul class="design-showcase clearfix">
             <li>
                 <figure class="design-photo">
                     <img src="resources/img/neon.JPG" alt="light show">
@@ -110,22 +150,66 @@
             </li>
             <li>
                 <figure class="design-photo">
-                    <img src="resources/img/DSC00609.jpg" alt="cloud">
+                    <img src="resources/img/DSC00900.JPG" alt="cloud">
+                </figure>
+            </li>
+        </ul>
+            <ul class="design-showcase clearfix">
+            <li>
+                <figure class="design-photo">
+                    <img src="resources/img/DSC00600.jpg" alt="CW">
+                </figure>
+            </li>
+            <li>
+                <figure class="design-photo">
+                    <img src="resources/img/cloud.jpg" alt="corgi design">
+                </figure>
+            </li>
+            <li>
+                <figure class="design-photo">
+                    <img src="resources/img/IMG_1920.JPG" alt="self portrait">
+                </figure >
+            </li>
+            <li>
+                <figure  class="design-photo">
+                    <img src="resources/img/DSC00609.jpg" alt="rishi">
+                </figure>
+            </li>
+        </ul>
+        <ul class="design-showcase clearfix">
+            <li>
+                <figure class="design-photo">
+                    <img src="resources/img/neon.JPG" alt="light show">
+                </figure>
+            </li>
+            <li>
+                <figure class="design-photo">
+                    <img src="resources/img/nothing.jpg" alt="neon lights">
+                </figure>
+            </li>
+            <li>
+                <figure class="design-photo">
+                    <img src="resources/img/lightfest.JPG" alt="light fest">
+                </figure>
+            </li>
+            <li>
+                <figure class="design-photo">
+                    <img src="resources/img/BIG_EH_LOGO.jpg" alt="cloud">
                 </figure>
             </li>
         </ul>
         
         
         </section>
-        <section class="section-stops">
+        <section class="section-stops js--scroll-to-skills">
             <div class="row">
-            <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+            <h2>Getting my hands dirty</h2>
             </div>
             <div class="row">
-                <div class="col span-1-of-2">
+                <div class="col span-1-of-2 step-box">
                     <img src="resources/img/app-iPhone.png" alt="iphone app" class="app-screen">
                 </div>
-                <div class="col span-1-of-2">
+                <div class="col span-1-of-2 step-box">
                     <div class="works-step">
                         <div>1</div>
                         <p>Choose the subscription plan that best fits your needs and sign up today.</p>
@@ -144,7 +228,27 @@
                 </div>
             </div>
         </section>
+        
+        <footer>
+              <div class="row">
+            <p>
+                  Made with tears and chia see pudding by Charmaine &copy; 2017;
+                  </p>
+            </div>
+        </footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+        <script src="//cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="resources/script.js"></script>
+        
     </body>
     
+    
+    
 </html>
+
+
 
