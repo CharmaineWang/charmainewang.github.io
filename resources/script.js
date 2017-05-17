@@ -14,11 +14,7 @@ $(document).ready(function() {
       offset: '50px;'
     });    
     
-    /*paragraph*/
     
-    .long-copy {
-  animation: pulse 5s infinite;
-}
     /* Scroll on buttons */
     
     $('.home').click(function () {
