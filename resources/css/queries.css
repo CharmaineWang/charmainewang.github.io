@@ -33,6 +33,11 @@
     .app-screen {width: 40%; }
     
     .icon-small
+    .icon-planet {
+    color: #fff;
+    font-size: 330%;
+    position: relative; top: 60px;
+}
 
     
 }
@@ -74,13 +79,23 @@
     .work-step {margin-bottom:20px;}
     .work-step:last-of-type { margin-bottom: 20px}
     
+    .icon-planet {
+    font-size: 190%;
+    top: 35px;
+    left: 30px;
+}
 
 }
+
 
 
 /* Small phones from 0 to 480 px */
 @media only screen and (max-width: 480px) {
     section {padding: 25px 0;}
-
+ .icon-planet {
+    font-size: 190%;
+    position: left; 
+    top: -15px;
+     left: 60px;
     
 }
