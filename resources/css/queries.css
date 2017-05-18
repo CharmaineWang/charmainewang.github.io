@@ -94,8 +94,8 @@
     section {padding: 25px 0;}
  .icon-planet {
     font-size: 190%;
-    position: left; 
+    position: relative; 
     top: -15px;
-     left: 60px;
+     left: 100px;
     
 }
