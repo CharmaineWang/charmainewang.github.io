@@ -251,7 +251,9 @@ header{
     float: right;
     list-style: none;
     margin-top: 35px;
+    cursor:pointer;
 }
+
 
 .main-nav li {
     display: inline-block;
@@ -306,6 +308,20 @@ header{
     border-bottom: 2px solid #f4c0f8;
 }
 
+/*Mobile-navi*/
+.mobile-icon {
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+.mobile-icon i {
+    font-size: 200%;
+    color: #4b6067;
+    
+}
 
 /* Sticky-navi */
 .sticky {
@@ -321,9 +337,10 @@ header{
 .sticky .main-nav {margin-top: 15px;}
 
  
-.sticky .main-nav li a1, a2, a3, a4, a5:link,
-.sticky .main-nav li a1, a2, a3, a4, a5:visited {
-
+.sticky .main-nav li a1:link,
+.sticky .main-nav li a1:visited {
+    padding-top:  px;
+    padding
 }
 
 .sticky .logo {display: none;}
@@ -333,6 +350,7 @@ header{
     height:40px;
     width:auto;
 };
+
 
 
 /* --------------------------------- */
@@ -483,11 +501,109 @@ footer p{
     font-size:80%;
 }
 
+.row footer {
+}
 
 /* --------------------------------- */
-/* ANIMATIONS*/
+/* IMAGES*/
 /* --------------------------------- */
 
+.project-pic {
+    height: 200px;
+    width: auto;
+    margin-left: 30%;
+    
+}
+
+.project-left{
+    position:relative;
+    margin: 0 auto;
+    text-align:center;
+    margin-top:100px;
+}
+
+.project {
+    padding: 10px 15px;
+    margin-top: 100px; 
+    margin-left: 300px;
+    background-color: rgba(75, 96, 103, 0.42);
+    border-radius:4px;
+    color:#fff;
+    border:none;
+    font-weight:bold;
+    text-transform:uppercase;
+
+}
+
+.popup {
+    width: 500px;
+    height: 180px;
+    background-color:#fcd5af;
+    display:none;
+    border-radius:4px;
+    position:relative;
+    z-index:1000;
+    
+}
+
+.popup p{
+    font-size: 20px;
+    line-height:100px;
+}
+
+.options {
+    
+    position:absolute;
+    width:100%;
+    bottom:0;
+    left: 0;
+}
+
+#close{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 25px;
+    float: right;
+    color:#4b6067;
+    cursor:pointer;
+    border: 2px solid #4b6067;
+    
+}
+
+.popup a:first-child {
+    float:left;
+    width:50%;
+    background-color: #fcafb8;
+}
+
+.popup a:last-child {
+    float:left;
+    width:50%;
+    background-color: #afe1fc;
+
+}
+
+
+.popup a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #be5151;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.cover{
+    width:1000%;
+    height: 100%;
+    position:relative;
+    display:none;
+    background-color:rgba(13, 38, 52, 0.42);
+    z-index: 999;
+    top:0;
+    left:0;
+    
+}
 /* .js--wp-1 {
     opacity: 0;
 }

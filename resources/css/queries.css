@@ -56,6 +56,34 @@
     .hero-text-box {padding: 0 4%;}
     
     .main-nav {display: none;}
+    .mobile-icon {display: inline-block}
+    
+    .main-nav {
+        float:left;
+        margin-top: 15px;
+        margin-left: 15px;
+        padding: 5px 0;
+    }
+    
+    .main-nav li{
+        display:block;
+    }
+    
+    .main-nav li a1, a2, a3, a4:link,
+    .main-nav li a1, a2, a3, a4:visited{
+        display:block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav {margin-top: 5px;}
+    
+    .sticky .mobile-icon i {margin-top: 10px;}
+     .sticky .mobile-icon i {color: #4b6067}
+
+
+
     
     h1{ font-size: 180%; }
     h2{size: 150%;}
