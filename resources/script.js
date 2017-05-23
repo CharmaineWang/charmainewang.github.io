@@ -96,7 +96,6 @@ $(document).ready(function() {
             icon.removeClass('ion-close-round');
         }
         
-    })
+    });
   
-}
 });
