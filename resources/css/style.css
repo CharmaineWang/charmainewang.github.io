@@ -384,7 +384,7 @@ header{
     height: 10%;
     margin:0;
     overflow:hidden;
-    background-color: #e7fdfc;
+    background-color: rgb(255, 255, 255);
 }
 
 .design-photo img {
@@ -667,53 +667,61 @@ footer p{
     margin-left: 30%;
     position: right;
     background-color: #afe1fc;
-    height: 120%;
+    height: 100%;
     
 }
 
 .project_pic_size {
     margin-top: 10px;
     margin-left: 10px;
-    width:400px
+    height: 400px;
 }
 
 .project_pic2_size {
     position:absolute;
     margin-top: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
     width:470px;
 }
 
 .project_pic3_size {
     position:absolute;
-    margin-top: 355px;
-    margin-left:190px;
-    width:280px;
+    margin-top: 375px;
+    margin-left:260px;
+    width:240px;
+    height: 260px;
 }
 
 .project_pic4_size {
     position:absolute;
-    margin-top: 355px;
-    margin-left:10px;
-    width:170px;
+    margin-top: 375px;
+    margin-left:20px;
+    width:140px;
+    height: 140px;
 }
 
 .project_pic5_size {
     position:absolute;
-    margin-top: 560px;
-    width:290px;
+    margin-top: 550px;
+    margin-left: 400px;
+    width:170px;
+}
+.project_pic6_size {
+    position:absolute;
+    margin-top: 420px;
+    margin-left: 30px;
+    width:300px;
 }
 
 /* project boxes */
 #portfolio {
-    padding-top: 100px;
     text-align: center;
     margin: 0 auto;
     width: 100%;
     height: 900px;
 }
 
-.box {
+.frame {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     width: 450px;
@@ -726,7 +734,7 @@ footer p{
     bottom: 0;
 }
 
-.box:hover {
+.frame:hover {
     width: 450px;
     height: 360px;
     margin: 50px;
@@ -738,20 +746,21 @@ footer p{
     position: relative;
 }
 
+
 #first {
         background-color: rgba(175, 225, 252, 0.53);
 }
 
 #second {
-        background-color: #a3add4;
+        background-color: rgba(175, 225, 252, 0.53);
 }
 
 #third {
-        background-color: #BAF2BB;
+        background-color: rgba(175, 225, 252, 0.53);
 }
 
 #fourth {
-        background-color: #c52740;
+        background-color: rgba(175, 225, 252, 0.53);
 }
 
 #port-pic {
@@ -787,7 +796,7 @@ footer p{
     padding-bottom: 12px;
 }
 
-.box:hover .slide-up {
+.frame:hover .slide-up {
     opacity: 0.9;
 }
 
