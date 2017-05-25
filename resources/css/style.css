@@ -255,7 +255,10 @@ header{
     cursor:pointer;
 }
 
-
+.main-nav a1 {
+    display:none;
+    cursor:default;
+}
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
@@ -335,6 +338,9 @@ header{
     z-index: 9999;
 }
 
+.sticky .main-nav a1 {
+    display:inherit;
+}
 .sticky .main-nav {margin-top: 15px;}
 
  
@@ -775,7 +781,7 @@ footer p{
     font-weight: 900;
     margin: 0;
     text-align: left;
-    padding-left: 20px;
+    padding-left: 4%;
     padding-top: 12px;
 }
 
@@ -784,7 +790,7 @@ footer p{
     font-size: 18px;
     margin: 0;
     text-align: left;
-    padding-left: 20px;
+    padding-left: 4%;
 }
 
 .slide-up {
@@ -793,7 +799,7 @@ footer p{
     opacity: 0.0;
     position: absolute;
     width: 100%;
-    padding-bottom: 12px;
+    padding-bottom: 3.5%;
 }
 
 .frame:hover .slide-up {
@@ -805,6 +811,11 @@ a {
     color: white;
 }
 
+/*--FOOTER--*/
+
+footer {
+margin-top: 300px;
+}
 footer p {
     font-family: 'europa', sans-serif;
     text-transform: uppercase;

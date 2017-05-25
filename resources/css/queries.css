@@ -136,7 +136,41 @@
     top: 35px;
     left: 30px;
 }
+#portfolio {
+    width: 100%;
+    height: 360px;
+}
 
+.frame {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    width: 100%;
+    height: 260px;
+    margin: 50px 10px;
+    display: inline-block;
+    box-shadow: 0 0 5px #dbaffc;
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+
+.frame:hover {
+   width: 100%;
+    height: 260px;
+    margin: 50px 10px;
+    display: inline-block;
+     box-shadow: 0 0 15px #afe1fc;
+    bottom: 15px;
+    right: 0;
+    color: white;
+    position: relative;
+}
+    
+#port-pic {
+    width: 100%;
+    height: 260px;
+    display:block;
+}
 }
 
 
@@ -149,5 +183,41 @@
     position: relative; 
     top: -15px;
      left: 100px;
+     }
     
+    #portfolio {
+    width: 100%;
+    height: 200px;
+}
+
+.frame {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    width: 100%;
+    height: 180px;
+    margin: 50px 5px;
+    display: inline-block;
+    box-shadow: 0 0 5px #dbaffc;
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+
+.frame:hover {
+   width: 100%;
+    height: 180px;
+    margin: 50px 5px;
+    display: inline-block;
+     box-shadow: 0 0 15px #afe1fc;
+    bottom: 15px;
+    right: 0;
+    color: white;
+    position: relative;
+}
+    
+#port-pic {
+    width: 100%;
+    height: 180px;
+    display:block;
+}
 }
