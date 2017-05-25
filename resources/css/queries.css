@@ -39,6 +39,30 @@
     position: relative; top: 60px;
 }
 
+    .frame {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    width: 450px;
+    height: 360px;
+    margin: 50px;
+    display: inline-block;
+    box-shadow: 0 0 5px #e1bcfc;
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+
+.frame:hover {
+    width: 450px;
+    height: 360px;
+    margin: 50px;
+    display: inline-block;
+     box-shadow: 0 0 15px #afe1fc;
+    bottom: 15px;
+    right: 0;
+    color: white;
+    position: relative;
+}
     
 }
 

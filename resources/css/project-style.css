@@ -1,0 +1,151 @@
+/* --------------------------------- */
+/*              BASIC SETUP          */
+/* --------------------------------- */
+
+*{
+    margin:0px 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility; /*renders font*/
+
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content:'.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/* --------------------------------- */
+/*             TITLE                 */
+/* --------------------------------- */
+
+.title{
+     background-color: #b6dcf4;
+    height: 180px;
+}
+.title h1{
+    font-size:400%;
+    margin: 0%;
+    padding-top: 8%;
+    color: #ffffff;
+    word-spacing: 2px;
+    text-align:center;
+    margin-bottom:30px;
+    letter-spacing: 1px;
+}
+
+/* --------------------------------- */
+/*             INFO                  */
+/* --------------------------------- */
+.description h1{
+    margin: 5% 18%;
+    font-size:190%;
+    color: #b6dcf4;
+    word-spacing: 2px;
+    text-align:left;
+    margin-bottom:30px;
+    letter-spacing: 1px;
+}
+
+
+.description h2{
+    margin: 1% 20%;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size:100%;
+    font-weight:300;
+    color: #000000;
+    word-spacing: 1px;
+    text-align:justify;
+    margin-bottom:30px;
+    letter-spacing: 1px;
+}
+.description h3{
+    margin: 0% 30%;
+    font-size:100%;
+    color: #d9f1ff;
+    text-transform: lowercase;
+    word-spacing: 2px;
+    text-align:center;
+    margin-bottom:2%;
+    letter-spacing: 1px;
+}
+
+.mockup{
+    margin:1% 18%;
+    position:center;
+    height:500px;
+}
+
+.LFP {
+    margin:1% 18%;
+    position:center;
+    height:400px;
+}
+
+.adjust{
+    margin:1% 30%;
+    position:center;
+    height:300px;
+}
+.handle{
+    margin-left: 30%;
+    position:center;
+    height:200px;
+}
+.UI,
+.alarm,
+.final{
+    margin-left: 30%;
+    position:center;
+    height:300px;
+}
+/* --------------------------------- */
+/*             Button                */
+/* --------------------------------- */
+.btn:link,
+.btn:visited {
+    margin-top: 1% ;
+    margin-bottom: 5%;
+    margin-left: 45%;
+    display: inline-block;
+    width: 180px;
+    padding: 10px 32px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 10px;
+    color:#f8f0d5;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 2px solid #80ccfc;
+    color:#80ccfc;
+}
+
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    background-color: #b6dcf4;
+    border: 2px solid #80ccfc;
+    color:#fff;
+    
+}
+.button {
+    margin: 0px 47%;
+    text-decoration: none;
+}
