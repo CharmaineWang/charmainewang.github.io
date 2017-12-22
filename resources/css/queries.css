@@ -1,223 +1,193 @@
 
 
-/* Big tablet to 1200px (width smaller than the 1140px row) */
-@media only screen and (max-width: 1200px) {
-    .hero-text-box {
-    width: 100%;
-        padding: 0 30%;
-    }   
+
+/* Big tablets 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px){
     
-    .row{
-    padding: 0 2%;
-    }
-    
+    .circle {
+                margin:auto;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                width: 300px;
+                height: 300px;
+                margin-top: -150px;
+                margin-left:-150px;
+                border-radius: 50%;
+                background-color:#FBD740;
+          
+            }
     
 }
 
 
-/* Small tablet to big tablet: from 768px to 1023 px */
-@media only screen and (max-width: 1023px) {
-    body {font-size: 18px; }
-    section {padding: 60px 0; }
+/* Small tablets to big tablets: from 768 to 1023px */
+@media only screen and (max-width: 1023px){
+    .circle {
+            margin:auto;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            margin-top: -150px;
+            margin-left:-150px;
+            border-radius: 50%;
+            background-color:#FBD740;
+        }
+    }
+
+    .introduction {
+        margin-top: 35%;
+        width:90%;
+        margin-left: 7%;  
+    }
+
+    .description {
+        width: 80%;  
+        margin-left: 7%;
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }  
+
+    .socials {
+    margin-top:10PX;
+    padding-left: 7%;
+    font-size: 1.5em;
+    }
     
-    .long-copy{
+    .introduction h1 {
+    font-size: 45px;
+    }
+    
+    .description h2{
+    font-size: 20px;
+    }
+    
+    .description h3{
+    font-size: 20px;
+    }
+
+
+/* Small phones to small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px){
+
+    html{
+        padding: 12px;
+        color: #555;
+        background-color:#EDECED;
+        height: 100%;
+    }
+    
+    .circle {
+        margin:auto;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: -100px;
+        margin-left:-100px;
+        border-radius: 50%;
+        background-color:#FBD740;
+}
+    
+}
+
+/* Small phones: from 0 to 414px */
+@media only screen and (max-width: 414px){
+    html{
+        padding: 10px;
+        color: #555;
+        background-color:#EDECED;
+        height: 100%;
+    }
+    .circle {
+        margin:auto;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: -100px;
+        margin-left:-100px;
+        border-radius: 50%;
+        background-color:#FBD740;
+    }
+    .introduction {
+        margin-top: 20%;
         width:80%;
+        margin-left: 10%;  
+    }
+
+    .description {
+        width: 80%;  
         margin-left: 10%;
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }  
+    .socials {
+    margin-top:10PX;
+    padding-left: 10%;
+    color: #474747;
+    font-size: 1.2em;
     }
     
-    .step-box {margin-top: 10px; }
-    .step-box: last-child {margin-top:10px;}
-    .works-steps {margin-bottom: 40px; }
-    .works-step:last-of-type {margin-bottom: 60px; }
-    
-    .app-screen {width: 40%; }
-    
-    .icon-small
-    .icon-planet {
-    color: #fff;
-    font-size: 330%;
-    position: relative; top: 60px;
-}
-
-    .frame {
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    width: 450px;
-    height: 360px;
-    margin: 50px;
-    display: inline-block;
-    box-shadow: 0 0 5px #e1bcfc;
-    color: white;
-    position: relative;
-    bottom: 0;
-}
-
-.frame:hover {
-    width: 450px;
-    height: 360px;
-    margin: 50px;
-    display: inline-block;
-     box-shadow: 0 0 15px #afe1fc;
-    bottom: 15px;
-    right: 0;
-    color: white;
-    position: relative;
-}
-    
-}
-
-
-
-
-
-
-/* Small phones to small tablets: from 481px to 767px */
-@media only screen and (max-width: 767px) {
-    body {font-size: 16px;}
-    section {padding: 30px 0;}
-    
-    .row
-    .hero-text-box {padding: 0 4%;}
-    
-    .main-nav {display: none;}
-    .mobile-icon {display: inline-block}
-    
-    .main-nav {
-        float:left;
-        margin-top: 15px;
-        margin-left: 15px;
-        padding: 5px 0;
+    .introduction h1 {
+    font-size: 45px;
     }
     
-    .main-nav li{
-        display:block;
+    .description h2{
+    font-size: 17px;
     }
     
-    .main-nav li a1, a2, a3, a4:link,
-    .main-nav li a1, a2, a3, a4:visited{
-        display:block;
-        border: 0;
-        padding: 10px 0;
-        font-size: 100%;
+    .description h3{
+    font-size: 17px;
+    }
+}
+
+/* Small phones: from 0 to 414px */
+@media only screen and (max-width: 375px){
+    html{
+        padding: 10px;
+        color: #555;
+        background-color:#EDECED;
+        height: 100%;
+    }
+    .circle {
+        margin:auto;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: -100px;
+        margin-left:-100px;
+        border-radius: 50%;
+        background-color:#FBD740;
+    }
+    .introduction {
+        margin-top: 25%;
+        margin-left: 10%;  
+    }
+
+    .description {
+        width: 80%;  
+        margin-left: 10%;
+        margin-top:30px;
+        letter-spacing: 2px;
+    }  
+    .socials {
+    margin-top:10PX;
+    padding-left: 10%;
+    color: #474747;
+    font-size: 1em;
     }
     
-    .sticky .main-nav {margin-top: 5px;}
-    
-    .sticky .mobile-icon i {margin-top: 10px;}
-     .sticky .mobile-icon i {color: #4b6067}
-
-
-
-    
-    h1{ font-size: 180%; }
-    h2{size: 150%;}
-    
-    .long-copy{
-        width:100%;
-        margin-left:0%;
+    .introduction h1 {
+    font-size: 35px;
     }
     
-    .step-box:first-child {
-    text-align:center;
-}
-    .works-step div {
-
-        height:40px;
-        width: 40px;
-        padding: 5px;
-        margin-right: 15px;
+    .description h2{
+    font-size: 15px;
     }
     
-    .work-step {margin-bottom:20px;}
-    .work-step:last-of-type { margin-bottom: 20px}
-    
-    .icon-planet {
-    font-size: 190%;
-    top: 35px;
-    left: 30px;
-}
-#portfolio {
-    width: 100%;
-    height: 360px;
-}
-
-.frame {
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    width: 100%;
-    height: 260px;
-    margin: 50px 10px;
-    display: inline-block;
-    box-shadow: 0 0 5px #dbaffc;
-    color: white;
-    position: relative;
-    bottom: 0;
-}
-
-.frame:hover {
-   width: 100%;
-    height: 260px;
-    margin: 50px 10px;
-    display: inline-block;
-     box-shadow: 0 0 15px #afe1fc;
-    bottom: 15px;
-    right: 0;
-    color: white;
-    position: relative;
-}
-    
-#port-pic {
-    width: 100%;
-    height: 260px;
-    display:block;
-}
-}
-
-
-
-/* Small phones from 0 to 480 px */
-@media only screen and (max-width: 480px) {
-    section {padding: 25px 0;}
- .icon-planet {
-    font-size: 190%;
-    position: relative; 
-    top: -15px;
-     left: 100px;
-     }
-    
-    #portfolio {
-    width: 100%;
-    height: 200px;
-}
-
-.frame {
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    width: 100%;
-    height: 180px;
-    margin: 50px 5px;
-    display: inline-block;
-    box-shadow: 0 0 5px #dbaffc;
-    color: white;
-    position: relative;
-    bottom: 0;
-}
-
-.frame:hover {
-   width: 100%;
-    height: 180px;
-    margin: 50px 5px;
-    display: inline-block;
-     box-shadow: 0 0 15px #afe1fc;
-    bottom: 15px;
-    right: 0;
-    color: white;
-    position: relative;
-}
-    
-#port-pic {
-    width: 100%;
-    height: 180px;
-    display:block;
-}
+    .description h3{
+    font-size: 12px;
+    }
 }
