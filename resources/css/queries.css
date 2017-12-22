@@ -35,38 +35,7 @@
         }
     }
 
-    .introduction {
-        margin-top: 35%;
-        width:90%;
-        margin-left: 7%;  
-    }
-
-    .description {
-        width: 80%;  
-        margin-left: 7%;
-        margin-top: 20px;
-        letter-spacing: 2px;
-    }  
-
-    .socials {
-    margin-top:10PX;
-    padding-left: 7%;
-    font-size: 1.5em;
-    }
     
-    .introduction h1 {
-    font-size: 45px;
-    }
-    
-    .description h2{
-    font-size: 20px;
-    }
-    
-    .description h3{
-    font-size: 20px;
-    }
-
-
 /* Small phones to small tablets: from 481 to 767px */
 @media only screen and (max-width: 767px){
 
@@ -111,7 +80,7 @@
         background-color:#FBD740;
     }
     .introduction {
-        margin-top: 20%;
+        margin-top: 15%;
         width:80%;
         margin-left: 10%;  
     }
@@ -120,7 +89,7 @@
         width: 80%;  
         margin-left: 10%;
         margin-top: 20px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }  
     .socials {
     margin-top:10PX;
@@ -162,7 +131,7 @@
         background-color:#FBD740;
     }
     .introduction {
-        margin-top: 25%;
+        margin-top: 15%;
         margin-left: 10%;  
     }
 
