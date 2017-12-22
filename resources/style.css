@@ -1,0 +1,159 @@
+/* --------------------------------- */
+/* BASIC SETUP*/
+/* --------------------------------- */
+/* background */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  height: 100%;
+  z-index: 1; }
+
+html {
+  padding: 15px;
+  color: #555;
+  background-color: #EDECED;
+  height: 100%;
+  height: 100%;
+  width: 100%; }
+
+.about {
+  background-color: #fff; }
+
+.circle {
+  position: fixed;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  margin-top: -150px;
+  left: 50%;
+  margin-left: -150px;
+  border-radius: 50%;
+  background-color: #FFD8D6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index:-1;
+  }
+
+.introduction {
+    margin-top: 9%;
+    margin-left: 16%;  
+    margin-bottom:0px;
+}
+
+.description {
+    width: 470px;  
+    margin-left: 16%;
+    margin-top:30px;
+    letter-spacing: 2px;
+}
+
+.socials {
+    margin-top:10PX;
+    padding-left: 16%;
+    color: #474747;
+    font-size: 1.5em;
+}
+
+
+.container {
+    padding-left: 50%;
+    position: relative; 
+    z-index:100;
+}
+
+/* NAVBAR */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #3D5BA9;
+  display: inline-block;
+  list-style-type: none; }
+
+li {
+  display: inline; }
+
+/* navbar */
+#nav {
+  width: 750px;
+  margin: 0 auto;
+  list-style: none; }
+
+#nav li {
+  float: left; }
+
+#nav a {
+  color: #3D5BA9;
+  display: block;
+  text-align: center;
+  width: 150px;
+  /* fixed width */
+  text-decoration: none; }
+
+/* TYPOGRAPHY */
+
+.introduction h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: #3D5BA9;
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+
+
+.description h2{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Lucida Grande", sans-serif;;
+    color: #3D5BA9;
+    font-size: 19px;
+    line-height: 130%;
+}
+
+.description h3{
+    font-family: "HelveticaNeue-ExtraBold", "Helvetica Neue Light", "Helvetica Neue", "Lucida Grande", sans-serif;
+    color: #3D5BA9;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+.hyperlink{
+    font-family: "HelveticaNeue-Bold", "Helvetica Neue Light", "Helvetica Neue", "Lucida Grande", sans-serif;
+    color:#3B59AB;
+}
+
+.hyperlink:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+    text-decoration: none;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+.socials-icon {
+    margin-right: 35px; 
+    color: #474747;
+}
+
+.socials-icon:hover {
+    color: #FBD740;
+    font-size: 1em; 
+    cursor:pointer;
+}
+
+
+/*# sourceMappingURL=style.css.map */
